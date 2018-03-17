@@ -2,7 +2,7 @@ var playlist = {Dicky: "Freaky Friday"}
 
 function updatePlaylist(playlist, artist, song) {
   Object.assign(playlist, {artist:song})
-  playlist.artist = song
+  playlist[artist] = song
   return playlist
 }
 
