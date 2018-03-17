@@ -1,5 +1,10 @@
 var playlist = {Lil Dicky:"Freaky Friday"}
 
 function updatePlaylist(playlist, artist, song) {
-  Object.assign()
+  playlist.artist = song
+  return playlist
+}
+
+function removeFromPlaylist(playlist, artist) {
+  
 }
